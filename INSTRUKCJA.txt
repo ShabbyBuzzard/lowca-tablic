@@ -1,0 +1,11 @@
+ŁOWCA TABLIC PL — WERSJA TELEFON
+Ta wersja zapisuje postęp DWOMA sposobami: IndexedDB + localStorage.
+Dodatkowo przycisk „Kopia zapasowa” zapisuje plik JSON z całym postępem.
+
+WAŻNE:
+Przeglądarki Androida nie instalują PWA poprawnie z pliku content://.
+Aby działała jak aplikacja z ikoną, folder trzeba udostępnić przez zwykły adres https.
+Jeśli otwierasz sam index.html jako plik, zapis lokalny może zależeć od przeglądarki.
+
+Najbezpieczniej: po większej sesji naciśnij „Kopia zapasowa”.
+Plik lowca-tablic-kopia.json pozwala odtworzyć wszystkie zaznaczenia przyciskiem „Przywróć”.
